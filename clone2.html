@@ -32,7 +32,19 @@
           </a>
 
           <a class="navbar-brand" href="#">
-            <img src="./image/create.png" height="40px">
+            <img src="./image/searchbar.png" height="50px">
+          </a>
+
+          <a class="navbar-brand" href="#">
+            <img src="./image/create.png" height="50px">
+          </a>
+
+          <a class="navbar-brand" href="#">
+            <img src="./image/notification.png" height="50px">
+          </a>
+
+          <a class="navbar-brand" href="#">
+            <img src="./image/account.png" height="50px">
           </a>
 
           <div class="form-check form-switch form-check-reverse">
@@ -51,32 +63,54 @@
               </h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body text-light bg-dark">
+            <div class="offcanvas-body text-light bg-black">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                  </form>
                 <li class="nav-item">
-                  <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active text-light" aria-current="page" href="#">
+                    <img src="./image/home.jpg" height="27px"/> Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-dim" href="#">Link</a>
+                  <a class="nav-link active text-light" href="#">
+                    <img src="./image/shorts.png" height="20px"/> Shorts</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-light" href="#">
+                      <img src="./image/subscription.jpg" height="40px"/></a>
+                  </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-dim" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
+                  <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    You
                   </a>
-                  <ul class="dropdown-menu bg-dark text-light">
-                    <li><a class="dropdown-item text-dim" href="#">Action</a></li>
-                    <li><a class="dropdown-item text-dim" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
+                  <ul class="dropdown-menu bg-black text-light">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">
+                          <img src="./image/your channel.png" height="27px"/> Your Channel</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" href="#">
+                          <img src="./image/history.png" height="25px"/> History</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active text-light" href="#">
+                            <img src="./image/your videos.png" height="25px"/> Your Videos</a>
+                      </li>
                     </li>
-                    <li><a class="dropdown-item text-dim" href="#">Something else here</a></li>
-                  </ul>
+                    <li class="nav-item">
+                      <a class="nav-link active text-light" href="#">
+                        <img src="./image/watch later.png" height="25px"/> Watch Later</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">
+                          <img src="./image/like.png" height="25px"/> liked Videos</a>
+                      </li>
+                   </ul>
                 </li>
               </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+
             </div>
           </div>
         </div>
